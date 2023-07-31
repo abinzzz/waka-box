@@ -5,7 +5,7 @@ on:
   # Manual triggers with workflow_dispatch
   workflow_dispatch:
 jobs:
-  update-gist: a0710b755950f91e8b270a4f23f9dd6
+  update-gist: 
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
